@@ -1,5 +1,5 @@
 import bottle
-from bottle import Bottle, run
+from bottle import Bottle, run, template
 import json
 import image
 

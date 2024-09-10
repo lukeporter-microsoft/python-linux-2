@@ -9,7 +9,7 @@ app = Bottle()
 def hello():
     return "Hello World!"
 
-@app.route('call')
+@app.route('/call')
 def call_service():
     directoryName = 'photos'
     image.process(directoryName)

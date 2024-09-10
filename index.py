@@ -19,4 +19,4 @@ if __name__ == '__main__':
 	
 serverApp = bottle.default_app()
 
-serverApp.create_app_instance()
+#serverApp.create_app_instance() https://stackoverflow.com/questions/68013464/gunicorn-failed-to-find-attribute-app-in-module

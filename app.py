@@ -2,6 +2,7 @@ import bottle
 from bottle import Bottle, run, template
 import json
 import image
+import cProfile
 
 app = Bottle()
 
@@ -24,4 +25,4 @@ def index():
 if __name__ == '__main__':
     app.run(host='localhost', port=8000)
 
-
+cProfile.run(index)

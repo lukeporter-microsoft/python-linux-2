@@ -2,7 +2,6 @@ import bottle
 from bottle import Bottle, run, template
 import json
 import image
-import cProfile
 
 app = Bottle()
 
